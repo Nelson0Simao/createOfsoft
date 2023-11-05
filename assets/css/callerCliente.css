@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the entire body */
+}
+
+/* Add font-family rules to specific elements if needed */
+h1, h2, label, input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+body.body-form {
+    background: #0B4B92;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the container */
+    padding: 20px;
+}
+
+#logo-main {
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    color: #f0fa00;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.form-action-el {
+    text-align: left;
+}
+
+form label {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0;
+    display: block;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 100%; /* Make input fields span the container's width */
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+#btn-call-center {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #e71256;
+    border: none;
+    border-radius: 8px;
+    transition: width 1s, background-color 1s;
+}
+
+#btn-call-center:hover {
+    width: 100%; /* Make the button span the container's width when hovered */
+    background-color: #FD2367;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+}
+
+span {
+    color: red;
+    margin-left: 5px;
+}

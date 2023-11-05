@@ -1,0 +1,71 @@
+/* Estilos para o header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A76CA; /* Cor de fundo do header */
+    padding: 1rem 2rem; /* Espaçamento interno do header */
+}
+
+/* Estilos para o menu de navegação principal */
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+/* Estilos para o logo */
+#logoPricial {
+    width: 80px;
+    height: 80px;
+}
+
+/* Estilos para o menu hambúrguer em telas pequenas */
+.menu-burger {
+    display: none; /* Inicialmente, o menu hambúrguer está oculto */
+}
+
+/* Estilos para o menu de perfil e portal */
+.menu-profile-portal {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-profile-portal li {
+    margin-right: 20px;
+}
+
+/* Estilos para o botão "Ligamos para você" */
+.btn.submit {
+    background-color: #FD0B57;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Estilos para o menu hambúrguer visível em telas menores */
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Oculta o menu de navegação principal */
+    }
+
+    .menu-burger {
+        display: block; /* Exibe o menu hambúrguer */
+    }
+
+    /* Estilos adicionais para tornar o menu hambúrguer funcional */
+    .menu-header-2 {
+        display: flex;
+        align-items: center;
+    }
+}

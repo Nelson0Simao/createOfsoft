@@ -1,0 +1,86 @@
+:root {
+    --header-color-text: #363636;
+    --btn: #FD0B57;
+    --white: #F5F6FA;
+    --blue: #00adee;
+    --link-color: #999999;
+}
+
+header.header .menu-header ul li a {
+    color: var(--header-color-text);
+    padding: .2rem 1rem;
+    margin-right: 1rem;
+}
+
+header.header .menu-header-2 ul:first-child {
+    margin-right: 2rem;
+}
+
+header.header .menu-header-2 ul:first-child a .menu-text-1 {
+    color: var(--link-color);
+    font-size: 13px;
+    line-height: 19px;
+}
+
+header.header .menu-header-2 ul:last-child a .menu-text-2 {
+    color: var(--blue);
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.menu,
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center all header elements */
+.menu-header-2,
+.menu-header-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button styling */
+.btn {
+    padding: .5rem 1rem;
+    background-color: var(--white);
+    border: solid 1px var(--btn);
+    color: var(--btn);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.btn.submit:hover {
+    color: var(--white);
+    background: var(--btn);
+    border: solid 1px var(--btn);
+}
+
+.menu-header .menu-items a:hover {
+    color: var(--blue);
+}
+
+header.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.menu {
+    width: 100%;
+    padding: 0 4rem;
+}
